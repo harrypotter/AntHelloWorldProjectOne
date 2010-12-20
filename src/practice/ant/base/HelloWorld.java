@@ -11,5 +11,10 @@ public class HelloWorld {
 		BasicConfigurator.configure();
 		logger.info("Hey there");
 		System.out.println("hello world");
+		
+	}
+	
+	public int add(int a,int b){
+		return a+b;
 	}
 }
